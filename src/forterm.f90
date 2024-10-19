@@ -42,7 +42,7 @@ contains
     character(len = *, kind = c_char), intent(in) :: input_string
     integer(c_int), intent(in), value :: severity_level
 
-    print*,color_term(severity_level, input_string)
+    print"(A)",color_term(severity_level, input_string)
   end subroutine print_color
 
 
