@@ -9,6 +9,17 @@ Standardized terminal colorization for Fortran projects.
 - Warning
 - Advisory
 - Notification
+
+-----
+
+### Add to your project:
+
+-----
+
+```toml
+[dependencies]
+forterm = { git = "https://github.com/jordan4ibanez/forterm" }
+```
   
 -----
 
